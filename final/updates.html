@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>更新內容 - Sherry | 職涯講座 心得X筆記分享 </title>
+		<link rel="icon" href="images/icon.png" >
+
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+
+
+
+
+
+		<style>
+
+
+
+			#toplogo{
+				display: block;
+				max-width: 40%;
+				min-width: 400px;
+				margin-top: 40px ;
+				margin-left: 30px;
+				margin-bottom: 50px;
+			}
+
+
+
+
+
+
+			ul{
+				position: sticky;
+				top: 0;
+				list-style-type: none;
+			    overflow: hidden;
+				background-color:#C0B7B1;
+				margin:0 45px 0 45px;
+				padding: 0;
+
+			}
+			
+
+
+			li{
+				float:left;
+				
+			}
+		
+			li a{
+				display: inline-block;
+				padding: 10px 30px;
+				text-align: center;
+				text-decoration: none;
+
+				font-family: 'Noto Sans TC', sans-serif;
+				font-size: 16px;
+				font-weight: 350;
+				color: white;
+				}
+			
+			a.nav:hover{color: black;}
+			a.active{background-color:#595959;}
+
+
+
+			div.updates{
+				margin: auto;
+				margin-top: 70px;
+				width: 80%;
+			}
+
+
+
+
+			h1{
+				font-family: 'Playfair Display',/*'Noto Sans TC', */serif;
+				font-size: 40px;
+				letter-spacing: 2px;
+				color: black;
+				margin-top: 0;
+				margin-bottom: 0px;
+			}
+
+			p{
+				font-family: 'Noto Sans TC', sans-serif;
+				font-size: 16px;
+				color: #433e3f;
+				font-weight: 200;
+				text-align: justify;
+				margin-bottom: 30px;
+				line-height: 28px;
+
+			}
+
+			
+
+
+
+
+			a.gototop{
+				position: fixed;
+				bottom: 40px;
+				right: 40px;
+
+				display:block;
+				width: 45px;
+				padding: 24px 10px;
+				border-radius: 100px;
+				margin: auto;
+				margin-top: 200px;
+				text-align: center;
+
+				vertical-align: middle;
+				text-decoration: none;
+				color: white;
+				background-color: black;
+				font-size: 12px;
+				box-shadow: 5px 5px 20px gray;
+			}
+
+			a.gototop:hover{background-color:#595959;}
+
+
+
+			#footer{
+				width: 100%;
+				padding-top: 90px;
+				padding-bottom: 90px;
+				margin-top: 80px;
+				text-align: center;
+				font-family: 'Noto Sans TC', sans-serif;
+				font-size: 16px;
+				color: white;
+				background-color:#595959;
+				font-weight: 200;
+			}
+
+
+
+
+
+		</style>
+	</head>
+
+
+
+
+
+
+
+	<body>
+
+
+		<a href="./index.html"><img src="./images/logo.png" id="toplogo"></a>
+
+
+		
+
+		<ul>
+				<li><a class="nav" href="./index.html" >最新文章</a></li>
+				<li><a class="nav" href="./allarticles.html" >所有文章</a></li>
+				<li><a class="nav" href="./lecturers.html" >講師資訊</a></li>
+				<li><a class="nav" href="./about.html" >關於</a></li>
+				<li><a class="active" href="./updates.html" >更新內容</a></li>
+		</ul>
+
+
+
+
+		<div class="updates">
+				<h1>Updates</h1>
+
+				<p>
+					1. 新增一頁講師資訊，使用到position：flex還有flex-wrap：wrapped等等的property。<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<span>I added a <b>new page for lecturers' information</b>,and used<b> position:flex </b>and<b> flex-wrap:wrapped </b>properties.<br></span>
+				</p>
+
+
+				<p>
+					2. 把原本擺在頁面最底端的go to top按鈕，改成position：fixed的圓型懸浮按鈕，並且新增了陰影。<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					I upgraded the <b>go to top button</b> at the bottom of the page,I used <b>position:fixed</b> and turned it into a fixed circular button with box shadow.<br>
+				</p>
+
+
+				<p>
+					3. 把導覽列nav bar新增了posion：sticky，所以頁面滑到底下時，導覽列還是會維持在上方。<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					I upgraded the <b>navigation bar</b>,I used <b>posion:sticky</b> to let it stick to the top of webpage.<br>
+				</p>
+
+
+				<p>
+					4. 把logo和其他圖片都新增了min-width，讓圖片不會無限縮小，在縮放螢幕時也可以看得清楚。<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					I added <b>min-width property</b> for LOGO and all of the pictures on website
+				</p>
+
+				<p>
+					5. about me的照片新增了float：left<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					I added <b>float:left</b> property to my pictures in "about me" webpage
+				</p>
+
+				
+		</div>
+
+
+
+
+
+
+		
+
+
+
+
+
+			
+
+
+
+
+		
+
+
+
+		
+
+		<a href="#toplogo" class="gototop">TOP</a>
+
+		
+
+
+
+		<div id="footer">
+			2021  Sherry | 職涯講座 心得 X 筆記分享
+		</div>
+
+
+
+
+
+
+
+	</body>
+</html>
